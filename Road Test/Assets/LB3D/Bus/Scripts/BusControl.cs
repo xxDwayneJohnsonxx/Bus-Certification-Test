@@ -13,11 +13,24 @@ public class BusControl : MonoBehaviour {
     public Animator Door2;
     public Animator StopSign1;
     public Animator StopSign3;
+    private float speed = 20.0f;
+    private float turnspeed = 45.0f;
+    private float horizontalInput;
+    private float forwardInput;
 
     public float OpenCloseSpeed;
 
-    private bool isOpen = false;    
-    
+    private bool isOpen = false;
+
+    void Update()
+    {
+        horizontalInput = Input.GetAxis("Horizontal");
+        forwardInput = Input.GetAxis("Vertical");
+
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
+        transform.Rotate(Vector3.up, turnspeed * horizontalInput * Time.deltaTime);
+    }
+
     public void Open(bool open = true) {
         string action = "";
         if (open)
