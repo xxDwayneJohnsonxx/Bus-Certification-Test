@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 102
+=======
+  controlID: 41
+>>>>>>> master
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +227,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 92
+=======
+  controlID: 42
+>>>>>>> master
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +256,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 93
+=======
+  controlID: 43
+>>>>>>> master
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +329,28 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/SimplePoly - Town Pack/Prefabs/RoadSegments
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/SimplePoly - Town Pack/Prefabs/RoadSegments
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\hdkno577\Documents\Bus-Certification-Test\Road Test
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 10.9999695}
+<<<<<<< HEAD
     m_SelectedIDs: 165b0000
     m_LastClickedID: 23318
     m_ExpandedIDs: 000000000e5b0000145b0000185b0000625b000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 725b0000
+    m_LastClickedID: 23410
+    m_ExpandedIDs: 000000000e5b0000205b0000625b000000ca9a3bffffff7f
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +506,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 8e5b0000
       m_LastClickedID: 0
       m_ExpandedIDs: fcf4ffff38fbffff
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36fbffff
+>>>>>>> master
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +763,13 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -0.83622086, y: -0.102989025, z: 4.9959536}
+=======
+    m_Target: {x: -8.066475, y: 1.5919266, z: -0.7773304}
+>>>>>>> master
     speed: 2
-    m_Value: {x: -0.83622086, y: -0.102989025, z: 4.9959536}
+    m_Value: {x: -8.066475, y: 1.5919266, z: -0.7773304}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +816,23 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.070074484, y: 0.8309046, z: -0.1075392, w: -0.54141694}
+=======
+    m_Target: {x: -0.0155309765, y: 0.98394436, z: -0.10848298, w: -0.14086688}
+>>>>>>> master
     speed: 2
-    m_Value: {x: -0.07007414, y: 0.83090055, z: -0.10753867, w: -0.5414143}
+    m_Value: {x: -0.015742263, y: 0.9837807, z: -0.1099588, w: -0.14084345}
   m_Size:
+<<<<<<< HEAD
     m_Target: 7.975683
     speed: 2
     m_Value: 8.3515005
+=======
+    m_Target: 11.384703
+    speed: 2
+    m_Value: 11.393248
+>>>>>>> master
   m_Ortho:
     m_Target: 0
     speed: 2
