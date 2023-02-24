@@ -29,6 +29,18 @@ public class BusControl : MonoBehaviour {
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
         transform.Rotate(Vector3.up, turnspeed * horizontalInput * Time.deltaTime);
+
+        if (forwardInput == 0.0f)
+            turnspeed = 0;
+        else if (forwardInput > 0.0f)
+            turnspeed = 45.0f;
+        if (forwardInput == 0.0f)
+            turnspeed = 0;
+        else if (forwardInput < 0.0f)
+            turnspeed = 45.0f;
+
+
+
     }
 
     public void Open(bool open = true) {
