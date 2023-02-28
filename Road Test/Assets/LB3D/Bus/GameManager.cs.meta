@@ -1,11 +1,14 @@
 fileFormatVersion: 2
 guid: 019efa89e86a468409c00fe4e2b7dc99
-timeCreated: 1512097173
-licenseType: Store
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - asset: {fileID: 1209199135775896, guid: 0925cce6ef15b5a47a8fc3ceebdb21af, type: 3}
+  - rotate: {instanceID: 0}
+  - zoom: {instanceID: 0}
+  - cam: {instanceID: 0}
+  - doorControl: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
