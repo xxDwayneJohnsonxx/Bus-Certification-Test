@@ -13,8 +13,8 @@ public class BusControl : MonoBehaviour {
     public Animator Door2;
     public Animator StopSign1;
     public Animator StopSign3;
-    private float speed = 40.0f;
-    private float turnspeed = 80.0f;
+    private float speed = 20.0f;
+    private float turnspeed = 1000.0f;
     private float horizontalInput;
     private float forwardInput;
 
