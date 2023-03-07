@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Driver
+  - Wheels
+  - Road
+  - Ground
   layers:
   - Default
   - TransparentFX
