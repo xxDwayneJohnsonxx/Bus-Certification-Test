@@ -8,6 +8,8 @@ TagManager:
   - Wheels
   - Road
   - Ground
+  - Buildings
+  - RoadObjects
   layers:
   - Default
   - TransparentFX
