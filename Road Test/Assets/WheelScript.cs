@@ -19,10 +19,20 @@ public class WheelScript : MonoBehaviour
     {
         if (other.CompareTag("Ground"))
         {
-            Debug.Log("Hello");
             Application.Quit();
             UnityEditor.EditorApplication.isPlaying = false;
 
-        };
+        }
+        if (other.CompareTag("Road"))
+        {
+            Application.Quit();
+            UnityEditor.EditorApplication.isPlaying = false;
+
+        }
+        if (other.CompareTag("Buildings"))
+        {
+            Application.Quit();
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
     }
 }
