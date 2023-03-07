@@ -68,5 +68,9 @@ public class BusControl : MonoBehaviour {
             Open(true);
         }
     }
+    public void isGrounded()
+    {
+        
+    }
 
 }
