@@ -14,7 +14,7 @@ public class BusControl : MonoBehaviour {
     public Animator StopSign1;
     public Animator StopSign3;
     private float speed = 20.0f;
-    private float turnspeed = 1000.0f;
+    private float turnspeed = 10000000.0f;
     private float horizontalInput;
     private float forwardInput;
 
@@ -67,6 +67,10 @@ public class BusControl : MonoBehaviour {
         else {
             Open(true);
         }
+    }
+    public void isGrounded()
+    {
+        
     }
 
 }

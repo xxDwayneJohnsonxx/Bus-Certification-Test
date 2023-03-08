@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Driver
+  - Wheels
+  - Road
+  - Ground
+  - Buildings
+  - RoadObjects
   layers:
   - Default
   - TransparentFX
